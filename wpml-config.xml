@@ -1,0 +1,56 @@
+<wpml-config>
+
+	<!-- Translatable post types: each Job and stored Application can have a translation per language. -->
+	<custom-types>
+		<custom-type translate="1" display-as-translated="0">apqrinu_job</custom-type>
+		<custom-type translate="1" display-as-translated="0">apqrinu_application</custom-type>
+	</custom-types>
+
+	<!-- Translatable taxonomies. Term names and slugs become translatable per language. -->
+	<taxonomies>
+		<taxonomy translate="1">apqrinu_job_type</taxonomy>
+		<taxonomy translate="1">apqrinu_work_mode</taxonomy>
+		<taxonomy translate="1">apqrinu_experience_level</taxonomy>
+		<taxonomy translate="1">apqrinu_job_location</taxonomy>
+	</taxonomies>
+
+	<!--
+		Per-meta translation behavior:
+		  translate = string is translatable (visible in WPML String Translation per job)
+		  copy      = value is copied 1:1 to translations (numbers, IDs, dates, toggles)
+		  ignore    = leave each translation to set its own value independently
+	-->
+	<custom-fields>
+		<custom-field action="translate">_apqrinu_job_summary</custom-field>
+		<custom-field action="translate">_apqrinu_company_name</custom-field>
+		<custom-field action="copy">_apqrinu_company_logo</custom-field>
+		<custom-field action="copy">_apqrinu_application_deadline</custom-field>
+		<custom-field action="copy">_apqrinu_job_status</custom-field>
+		<custom-field action="copy">_apqrinu_salary_min</custom-field>
+		<custom-field action="copy">_apqrinu_salary_max</custom-field>
+		<custom-field action="copy">_apqrinu_salary_visibility</custom-field>
+		<custom-field action="copy">_apqrinu_application_email</custom-field>
+		<custom-field action="copy">_apqrinu_application_url</custom-field>
+		<custom-field action="translate">_apqrinu_apply_shortcode</custom-field>
+
+		<!-- Internal application record meta — copy across translations of the application post itself. -->
+		<custom-field action="copy">_apqrinu_app_job_id</custom-field>
+		<custom-field action="copy">_apqrinu_app_name</custom-field>
+		<custom-field action="copy">_apqrinu_app_email</custom-field>
+		<custom-field action="copy">_apqrinu_app_phone</custom-field>
+		<custom-field action="translate">_apqrinu_app_message</custom-field>
+		<custom-field action="copy">_apqrinu_app_resume_id</custom-field>
+		<custom-field action="copy">_apqrinu_app_ip</custom-field>
+	</custom-fields>
+
+	<!-- Plugin option keys exposed to WPML String Translation. -->
+	<admin-texts>
+		<key name="apqrinu_settings">
+			<key name="apply_email" />
+			<key name="apply_shortcode" />
+			<key name="currency" />
+			<key name="currency_symbol" />
+		</key>
+	</admin-texts>
+
+</wpml-config>

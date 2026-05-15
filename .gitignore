@@ -1,0 +1,11 @@
+# Internal Claude project instructions — not part of the plugin.
+CLAUDE.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Build artifacts (kept defensive even though we have no build step)
+*.zip

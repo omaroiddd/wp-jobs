@@ -1,0 +1,138 @@
+# Copyright (C) 2026 Apqrinu Job Board Contributors
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apqrinu Job Board 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apqrinu-job-board\n"
+"POT-Creation-Date: 2026-01-01T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Apqrinu Job Board 1.0.0\n"
+"X-Domain: apqrinu-job-board\n"
+
+msgid "Jobs"
+msgstr ""
+
+msgid "Job"
+msgstr ""
+
+msgid "Add New Job"
+msgstr ""
+
+msgid "All Jobs"
+msgstr ""
+
+msgid "Search Jobs"
+msgstr ""
+
+msgid "No jobs found."
+msgstr ""
+
+msgid "Job Type"
+msgstr ""
+
+msgid "Job Types"
+msgstr ""
+
+msgid "Work Mode"
+msgstr ""
+
+msgid "Work Modes"
+msgstr ""
+
+msgid "Experience Level"
+msgstr ""
+
+msgid "Experience Levels"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Locations"
+msgstr ""
+
+msgid "Job Details"
+msgstr ""
+
+msgid "Job Summary"
+msgstr ""
+
+msgid "Company Name"
+msgstr ""
+
+msgid "Application Deadline"
+msgstr ""
+
+msgid "Job Status"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Closed"
+msgstr ""
+
+msgid "On Hold"
+msgstr ""
+
+msgid "Filled"
+msgstr ""
+
+msgid "Salary Min"
+msgstr ""
+
+msgid "Salary Max"
+msgstr ""
+
+msgid "Show Salary on Front-end"
+msgstr ""
+
+msgid "Apply now"
+msgstr ""
+
+msgid "View details"
+msgstr ""
+
+msgid "Clear filters"
+msgstr ""
+
+msgid "No jobs match the current filters."
+msgstr ""
+
+msgid "No similar jobs found."
+msgstr ""
+
+msgid "Similar jobs"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Apply for this job"
+msgstr ""
+
+msgid "Application sent. Thank you!"
+msgstr ""
+
+msgid "Please provide a valid name and email."
+msgstr ""
+
+msgid "Applications are disabled."
+msgstr ""
+
+msgid "Invalid job."
+msgstr ""
+
+msgid "Could not save application."
+msgstr ""
+
+msgid "Jobs Board Settings"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
