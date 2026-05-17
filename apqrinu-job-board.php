@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Apqrinu Job Board
  * Plugin URI:        https://github.com/omaroiddd/wp-jobs
- * Description:       A lightweight job board: custom post type, taxonomy filters, AJAX listing, related jobs, built-in apply form, JobPosting schema, and template overrides.
+ * Description:       Lightweight job board with CPT, taxonomy filters, AJAX listing, apply form, JobPosting schema, and template overrides.
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
